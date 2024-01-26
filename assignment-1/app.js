@@ -142,3 +142,105 @@
 // 3. Variable names are case sensitive.
 
 // 4. Variable names should not be JS reserved keywords.
+
+
+// Q21
+
+// var num1 = +prompt("Enter First Number");
+// var num2 = +prompt("Enter Second Number");
+
+// var result = num1 + num2;
+
+// alert("The Sum of " + num1 + " & " + num2 + " is : " + result);
+
+
+
+// Q22
+
+
+// subtraction
+
+// var num1 = +prompt("Enter First Number");
+// var num2 = +prompt("Enter Second Number");
+
+// var result = num1 - num2;
+
+// alert("The Subtraction of " + num1 + " & " + num2 + " is : " + result);
+
+
+// Multiplication
+
+// var num1 = +prompt("Enter First Number");
+// var num2 = +prompt("Enter Second Number");
+
+// var result = num1 * num2;
+
+// alert("The Multiplication of " + num1 + " & " + num2 + " is : " + result);
+
+
+// Division
+
+// var num1 = +prompt("Enter First Number");
+// var num2 = +prompt("Enter Second Number");
+
+// var result = num1 / num2;
+
+// alert("The Division of " + num1 + " & " + num2 + " is : " + result);
+
+
+// Modulus
+
+// var num1 = +prompt("Enter First Number");
+// var num2 = +prompt("Enter Second Number");
+
+// var result = num1 % num2;
+
+// alert("The Remainder of " + num1 + " & " + num2 + " is : " + result);
+
+
+// Q23
+
+
+// var myNum;
+
+// document.write("Value after variable declaration is: " + myNum + "</br> </br>");
+// myNum = +prompt("Enter a number for the initial value!");
+
+// document.write("Initial value: " + myNum + "</br> </br>");
+// myNum =  ++myNum
+
+// document.write("Value after pre-increment is: " + myNum + "</br> </br>");
+// myNum = myNum + 7;
+
+// document.write("Value after addition (+7) is: " + myNum + "</br> </br>");
+// myNum = --myNum;
+
+// document.write("Value after pre-decrement is: " + myNum + "</br> </br>");
+// myNum = myNum % 3;
+
+// document.write("Output divided into 3 : The Remainder is: " + myNum);
+
+
+// Q24
+
+// var ticketPrice = 600;
+// var Quantity = +prompt("How many tickets do you want?");
+// var total = ticketPrice * Quantity;
+
+// alert("Your Total of " + Quantity + " Tickets is : " + total + "/= PKR");
+
+
+// Q25
+
+// var tableOf = prompt("Enter a number to print the table:");
+
+// document.write(tableOf + " x " + 1 + " = " + tableOf * 1 + "</br>");
+// document.write(tableOf + " x " + 2 + " = " + tableOf * 2 + "</br>");
+// document.write(tableOf + " x " + 3 + " = " + tableOf * 3 + "</br>");
+// document.write(tableOf + " x " + 4 + " = " + tableOf * 4 + "</br>");
+// document.write(tableOf + " x " + 5 + " = " + tableOf * 5 + "</br>");
+// document.write(tableOf + " x " + 6 + " = " + tableOf * 6 + "</br>");
+// document.write(tableOf + " x " + 7 + " = " + tableOf * 7 + "</br>");
+// document.write(tableOf + " x " + 8 + " = " + tableOf * 8 + "</br>");
+// document.write(tableOf + " x " + 9 + " = " + tableOf * 9 + "</br>");
+// document.write(tableOf + " x " + 10 + " = " + tableOf * 10 );
