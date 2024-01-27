@@ -106,10 +106,16 @@
 // Q18
 
 // // without values
-// var variable1, variable2, variable3;
 
-// // with values
-// var variable1 = "string", variable2 = 1234, variable3 = true;
+// var variable1;
+// var variable2;
+// var variable3;
+
+// // // with values
+
+// var variable1 = "string";
+// var variable2 = 1234;
+// var variable3 = true;
 
 
 // Q19
