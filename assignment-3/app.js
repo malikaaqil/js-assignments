@@ -53,17 +53,17 @@
 // b. If the guessed number +1 is the secret number, show “Close enough to the correct answer”. 
 
 
-// var num = parseInt(Math.random()*3 );
+var num = parseInt(Math.random()*10);
 
-// var userNum = +prompt("Enter a number between 1 - 10");
+var userNum = +prompt("Enter a number between 1 - 10");
 
-// if(userNum === num){
+if(userNum === num){
 
-//     alert("Bingo! Correct answer")
+    alert("Bingo! Correct answer")
 
-// }else if (userNum === ++num){
-//     alert("Close enough to the correct answer.")
+}else if (userNum === num + 1 || userNum === num - 1){
+    alert("Close enough to the correct answer." + num)
 
-// }else{
-//     alert("My Guess was: " + num)
-// }
+}else{
+    alert("My Guess was: " + num)
+}
