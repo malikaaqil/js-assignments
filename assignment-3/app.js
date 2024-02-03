@@ -50,20 +50,26 @@
 // Store a secret number (ranging from 1 to 10) in a variable.
 // Prompt user to guess the secret number.
 // a. If user guesses the same number, show “Bingo! Correct answer”.
-// b. If the guessed number +1 is the secret number, show “Close enough to the correct answer”. 
+// b. If the guessed number +1 is the secret number, show “Close enough to the correct answer”.
 
 
-var num = parseInt(Math.random()*10);
+// var num = parseInt(Math.random()*10);
 
-var userNum = +prompt("Enter a number between 1 - 10");
+// var userNum = +prompt("Enter a number between 1 - 10");
 
-if(userNum === num){
+// if(userNum === num){
 
-    alert("Bingo! Correct answer")
+//     alert("Bingo! Correct answer")
 
-}else if (userNum === num + 1 || userNum === num - 1){
-    alert("Close enough to the correct answer." + num)
+// }else if (userNum === num + 1 || userNum === num - 1){
+//     alert("Close enough to the correct answer." + num)
 
-}else{
-    alert("My Guess was: " + num)
-}
+// }else{
+//     alert("My Guess was: " + num)
+// }
+
+
+// Q6
+// Write a program to check whether the given number is divisible by 3. Show the message to the user if the number is divisible by 3.
+
+var userNum = +prompt("Enter a number");
