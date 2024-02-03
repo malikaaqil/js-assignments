@@ -28,3 +28,42 @@
 // }else{
 //     alert("Please Enter Correct Gender!!")
 // }
+
+
+// Q3
+// Write a program to take input remaining fuel in car (in litres) from user. If the current fuel is less than            0.25litres, show the message “Please refill the fuel in your car”
+
+// var remainingFuel = +prompt("Remaning Fuel in your car");
+
+// if (remainingFuel < 0.25){
+
+//     alert("Please refill the fuel in your car: ")
+
+// }else if (remainingFuel > 0.25) {
+
+//     alert("No need to refill.")
+
+
+
+// Q5
+// Guess game:
+// Store a secret number (ranging from 1 to 10) in a variable.
+// Prompt user to guess the secret number.
+// a. If user guesses the same number, show “Bingo! Correct answer”.
+// b. If the guessed number +1 is the secret number, show “Close enough to the correct answer”. 
+
+
+// var num = parseInt(Math.random()*3 );
+
+// var userNum = +prompt("Enter a number between 1 - 10");
+
+// if(userNum === num){
+
+//     alert("Bingo! Correct answer")
+
+// }else if (userNum === ++num){
+//     alert("Close enough to the correct answer.")
+
+// }else{
+//     alert("My Guess was: " + num)
+// }
