@@ -202,3 +202,34 @@
 //     document.write("<h1>Moye Moye! 🥶</h1>")
 
 // }
+
+
+// Q9
+// Write a program to create a calculator for +,-,*, / & % using if statements. Take the following input:
+// a. First number
+// b. Second number
+// c. Operation (+, -, *, /, %) Compute & show the calculated result to user. 
+
+// var num1 = +prompt("Enter first number: ");
+// var opt = prompt("Enter an operator to perform mathematical operation:")
+// var num2 = +prompt("Enter second number: ");
+
+// var result;
+
+// if (opt == "+") {
+//     result = num1 + " + " + num2 + " = " + (num1 + num2);
+    
+// } else if (opt == "-") {
+//     result = num1 + " - " + num2 + " = " + (num1 - num2);
+    
+// } else if (opt == "*" || opt == "x"){
+//     result = num1 + " * " + num2 + " = " + (num1 * num2);
+    
+// }else if (opt == "/"){
+//     result = num1 + " / " + num2 + " = " + (num1 / num2);
+
+// }else{
+//     alert("Please enter valid operator.")
+// }
+
+// alert(result);
