@@ -162,3 +162,43 @@
 
 //     alert(userNum + " is not divisible.")
 // }
+
+
+// Q7
+// Write a program that checks whether the given input is an even number or an odd number. 
+
+// var userNum = +prompt("Enter a number to check it's even or odd: ");
+
+// if (userNum % 2 === 0){
+//     alert(userNum + " is even number.")
+// }else{
+//     alert(userNum + " is odd number.")
+
+// }
+
+
+// Q8
+// Write a program that takes temperature as input and shows a message based on following criteria
+// a. T > 40 then “It is too hot outside.”
+// b. T > 30 then “The Weather today is Normal.”
+// c. T > 20 then “Today’s Weather is cool.”
+// d. T > 10 then “OMG! Today’s weather is so Cool.”
+
+// var temp = prompt("Enter temperature:", 40);
+
+// if (temp >= 40) {
+//     alert("It is too hot outside.")
+
+// } else if (temp >= 30) {
+//     alert("The Weather today is Normal.")
+
+// } else if (temp >= 20) {
+//     alert("Today's Weather is cool.")
+
+// } else if (temp >= 10) {
+//     alert("OMG! Today's weather is so Cool.")
+
+// }else if(temp < 10){
+//     document.write("<h1>Moye Moye! 🥶</h1>")
+
+// }
