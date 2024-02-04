@@ -44,6 +44,84 @@
 //     alert("No need to refill.")
 
 
+// Q4
+// Run this script, & check whether alert message would be displayed or not. Record the outputs. 
+
+// // a.
+
+// var a = 4;
+// if (++a === 5){
+// alert("given condition for variable a is true");
+// } 
+
+// // pre-increment trued the condition.
+
+
+// b.
+
+// var b = 82;
+// if (b++ === 83){
+// alert("given condition for variable b is true");
+// }
+
+// note: b++ is post increment. if we want the incremented value we need to call the variable b in the next line then we will get the incremented value. and the upper defined condition is just like we just decreared it. for reference check below defined condition.
+
+// var b = 2;
+// alert("Here we incremented the value but we wil get the old value: "+b++);
+// alert("Now here is the updated value: " + b);
+
+
+// c.
+
+// var c = 12;
+// if (c++ === 13) {
+//     alert("condition 1 is true");
+// }
+// if (c === 13) {
+//     alert("condition 2 is true");
+// }
+// if (++c < 14) {
+//     alert("condition 3 is true");
+// }
+// if (c === 14) {
+//     alert("condition 4 is true");
+// }
+
+// // condition 2 and 4 will run.
+
+
+// d.
+
+// var materialCost = 20000;
+// var laborCost = 2000;
+// var totalCost = materialCost + laborCost;
+// if (totalCost === laborCost + materialCost){
+// alert("The cost equals");
+// } 
+
+// // condition true
+
+
+// e.
+
+// if (true) {
+//     alert("True")    
+// }
+// if (false) {
+//     alert("False");
+// }
+
+// the condition true will only run.
+
+
+// f.
+
+// if("car" < "cat"){
+//     alert("car is smaller than cat");
+// }
+
+// // this is an advance topic but for now we will urderstand it like in alphabetic order. a comes first then b and c. so the index of the a is 1 and for b index is 2 and for c is 3. in upper defined condition both side are equal in first 2 letters, third letter of the car is on 18 index in alphabetic order & the third letter of cat is 20 index. now you will easily understand the upper defined condition 18 < 20 which is true.
+
 
 // Q5
 // Guess game:
