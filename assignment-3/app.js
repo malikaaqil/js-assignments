@@ -72,4 +72,15 @@
 // Q6
 // Write a program to check whether the given number is divisible by 3. Show the message to the user if the number is divisible by 3.
 
-var userNum = +prompt("Enter a number");
+// var userNum = +prompt("Enter a number to check it is divisible by 3:");
+
+// if (userNum <= 0) {
+//     alert("please enter positive value!")
+
+// } else if (userNum % 3 === 0) {
+//     alert(userNum + " is divisible.")
+
+// } else {
+
+//     alert(userNum + " is not divisible.")
+// }
