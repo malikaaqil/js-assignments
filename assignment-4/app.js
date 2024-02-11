@@ -155,3 +155,142 @@
 // Q5
 
 
+// var score1 = prompt("Entre score 1.");
+// var score2 = prompt("Entre score 2.");
+// var score3 = prompt("Entre score 3.");
+
+// var studentScore = [];
+
+// var scoredPushed = studentScore.push(score1, score2, score3);
+// var scoreSorted = studentScore.sort();
+
+// alert(studentScore);
+
+
+// Q6
+
+
+// var manufacturers = [" Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"];
+// document.write(manufacturers);
+
+
+// Q7
+
+
+// var userTable = prompt("Enter Table Number.");
+// var tableLength = prompt("Enter Table Length.", 10);
+
+// for(var i= 1; i <= tableLength; i++){
+
+//     document.write(userTable + " x " + i + " = " + (userTable*i) + "<br>")
+
+// }
+
+
+// Q8
+
+
+// // a
+
+// for(var i = 1; i <= 15; i++){
+//     document.write(i + ", ")
+// }
+
+
+// // b
+
+// for (var i = 10; i > 0; i--) {
+//     document.write(i + ", ")
+// }
+
+
+// // c
+
+// for(var i = 0; i <= 20; i++){
+
+//     if(i % 2 == 0){
+//         document.write(i + ", ")
+//     }
+// }
+
+
+// // d
+
+// for(var i = 0; i < 20; i++){
+
+//     if(i % 2 != 0){
+//        document.write(i + ", ")
+
+//     }
+// }
+
+
+// // e
+
+// for(var i = 1; i <= 20; i++){
+
+//     if(i % 2 == 0){
+//         document.write(i + "k, ")
+
+//     }
+// }
+
+
+// Q9
+
+
+// var arr = ["cake", "apple pie", "cookie", "chips", "patties"];
+// var userPrompt = prompt("Search in Array.").toLowerCase();
+
+// var flag = false;
+
+// for (var i = 0; i < arr.length; i++) {
+
+//     if (userPrompt == arr[i]) {
+//         flag = true
+
+//     }
+// }
+
+// if (flag) {
+//     alert("✅ " + userPrompt + " Found.")
+
+// } else {
+//     alert("❌ " + userPrompt + " not Found.")
+// }
+
+
+// // Q10
+
+
+// var userText = prompt("Enter a word in capital latters.)
+// var lowerText = userText.toLowerCase()
+
+// alert(userText + " = " + lowerText)
+
+
+// // Q11
+
+
+// var userText = prompt("Enter a word in small letters.");
+// var upperText = userText.toUpperCase();
+
+// alert(userText + " = " + upperText);
+
+
+// Q12
+
+
+// var usreNum = prompt("Enter a number.");
+
+// var userType;
+
+// if (usreNum % 1 == 0) {
+//     userType = Number(usreNum);
+
+// }
+// else {
+//     userType = usreNum
+// }
+
+// alert("The Type Of " + usreNum+ " is: " + typeof userType);
